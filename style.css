@@ -1,0 +1,76 @@
+@font-face{
+ font-family:"Raleway" ;
+ src: url("./fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+ src: url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
+ font-weight: normal;
+ font-style: normal;
+
+ font-family: "Caveat";
+ src: url("./fonts/Caveat/Caveat-VariableFont_wght.ttf");
+ font-weight: normal;
+ font-style: normal;
+
+ font-family: "Nanum_Myeongjo";
+ src: url("./fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf");
+ src: url("./fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf");
+ src: url("./fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
+ font-weight: normal;
+ font-style: normal;
+
+ font-family: "Raleway_Dots";
+ src: url("./fonts/Raleway_Dots/RalewayDots-Regular.ttf");
+ font-weight: normal;
+ font-style: normal;
+}
+
+*{
+ box-sizing: border-box;
+ font-family: Raleway;
+ color: rgba(5, 5, 5, 0.904);
+}
+html, body{
+ margin: 0;
+ padding: 0;
+}
+
+.nav ul{
+ padding: 0;
+ display: inline-block;
+}
+.nav li{
+display: inline;
+}
+.nav li a{
+
+ padding: 20px 50px;
+letter-spacing: 2px;
+ text-decoration: none;
+ color: seashell;
+
+}
+.nav a:hover{
+    background-color: rgba(225, 225,225, .3);
+}
+.main-header{
+background-image:url("./images/images\ \(2\).jpg") ;
+background-size: cover;
+background-color: rgba(1, 1, 9, 0.062);
+background-blend-mode: multiply;
+padding: 0;
+margin: 0;
+height: 200px;
+width: 100%;
+padding-bottom: 30px; 
+
+}
+.main-header h1{
+ padding-top: 40px;
+ text-align: center;
+ color:rgba(199, 227, 247, 0.975);
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: ;
+}
