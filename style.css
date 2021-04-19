@@ -27,22 +27,26 @@
  box-sizing: border-box;
  font-family: Raleway;
  color: rgba(5, 5, 5, 0.904);
+
 }
 html, body{
  margin: 0;
  padding: 0;
 }
-
+.nav{
+    text-align: center;
+}
 .nav ul{
  padding: 0;
  display: inline-block;
 }
 .nav li{
 display: inline;
+text-align: center;
 }
 .nav li a{
-
- padding: 20px 50px;
+ font-size:20px ; 
+ padding:  1.5vw 10vw;
 letter-spacing: 2px;
  text-decoration: none;
  color: seashell;
@@ -52,25 +56,108 @@ letter-spacing: 2px;
     background-color: rgba(225, 225,225, .3);
 }
 .main-header{
-background-image:url("./images/images\ \(2\).jpg") ;
-background-size: cover;
 background-color: rgba(1, 1, 9, 0.062);
-background-blend-mode: multiply;
 padding: 0;
 margin: 0;
-height: 200px;
+height: 50px;
 width: 100%;
 padding-bottom: 30px; 
 
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7ff25c+0,0f4f4a+36,207cca+60,753f58+100&0.96+0,0.98+24,0.26+62,0.94+92 */
+background: -moz-linear-gradient(-45deg,  rgba(127,242,92,0.96) 0%, rgba(52,133,80,0.98) 24%, rgba(15,79,74,0.75) 36%, rgba(32,124,202,0.3) 60%, rgba(36,121,196,0.26) 62%, rgba(100,75,111,0.94) 92%, rgba(117,63,88,0.94) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(127,242,92,0.96) 0%,rgba(52,133,80,0.98) 24%,rgba(15,79,74,0.75) 36%,rgba(32,124,202,0.3) 60%,rgba(36,121,196,0.26) 62%,rgba(100,75,111,0.94) 92%,rgba(117,63,88,0.94) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(127,242,92,0.96) 0%,rgba(52,133,80,0.98) 24%,rgba(15,79,74,0.75) 36%,rgba(32,124,202,0.3) 60%,rgba(36,121,196,0.26) 62%,rgba(100,75,111,0.94) 92%,rgba(117,63,88,0.94) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f57ff25c', endColorstr='#f0753f58',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
-.main-header h1{
- padding-top: 40px;
+ .brand-name{
+ /*  */
  text-align: center;
- color:rgba(199, 227, 247, 0.975);
+ letter-spacing: 2px;
+ color:rgba(20, 20, 20, 0.8);
+ word-spacing: 20px;
+ font-weight: bolder;
+ font-style: oblique;
 }
 
+.section-header{
+    padding:0px;
+    margin: 0px;
+}
+
+.btn{
+    color: white;
+    background-color:rgba(3, 61, 15);
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    transition: width 1s;
+    box-shadow: black 0.3;  
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+     transition: 1s ease; 
+}
 h2{
     text-align: center;
     letter-spacing: 2px;
-    text-decoration: ;
+    background-color:goldenrod;
+  
 }
+
+
+.main-paragraph{
+    word-spacing: 3px;
+    font-family: Nanum_Myeongjo;
+}
+.section-main{
+    text-align: center;
+    display: inline;
+}
+
+a{
+ font-size:20px ; 
+ padding:  2vw 10vw;
+letter-spacing: 2px;
+ text-decoration: none;
+ color:rgba(77, 8, 62, 0.98);
+
+}
+
+.footer-nav{
+    text-align: center;
+}
+.footer-nav ul{
+    padding: 0px;
+    display:inline-block
+}
+.footer-nav li{
+    display: inline;
+    padding: 0px;
+    
+}
+
+
+.main-footer{
+    background-color: rgba(32,124,202,0.98);
+    color:whitesmoke;
+   padding-top: 20px;
+  
+}
+.main-footer-container{
+    display:flex;
+    align-content: center;
+}
+.main-footer-container  a:hover{
+   background-color: lightblue;
+
+
+}
+
