@@ -27,7 +27,8 @@
  box-sizing: border-box;
  font-family: Raleway;
  color: rgba(5, 5, 5, 0.904);
-
+ padding: 15px;
+min-width: 480px;
 }
 html, body{
  margin: 0;
@@ -46,28 +47,23 @@ text-align: center;
 }
 .nav li a{
  font-size:20px ; 
- padding:  1.5vw 10vw;
+ padding: 5VW;
 letter-spacing: 2px;
  text-decoration: none;
- color: seashell;
+ color: blcak;
 
 }
 .nav a:hover{
     background-color: rgba(225, 225,225, .3);
+    color: chartreuse;
 }
 .main-header{
-background-color: rgba(1, 1, 9, 0.062);
+
 padding: 0;
 margin: 0;
 height: 50px;
 width: 100%;
 padding-bottom: 30px; 
-
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7ff25c+0,0f4f4a+36,207cca+60,753f58+100&0.96+0,0.98+24,0.26+62,0.94+92 */
-background: -moz-linear-gradient(-45deg,  rgba(127,242,92,0.96) 0%, rgba(52,133,80,0.98) 24%, rgba(15,79,74,0.75) 36%, rgba(32,124,202,0.3) 60%, rgba(36,121,196,0.26) 62%, rgba(100,75,111,0.94) 92%, rgba(117,63,88,0.94) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(127,242,92,0.96) 0%,rgba(52,133,80,0.98) 24%,rgba(15,79,74,0.75) 36%,rgba(32,124,202,0.3) 60%,rgba(36,121,196,0.26) 62%,rgba(100,75,111,0.94) 92%,rgba(117,63,88,0.94) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(127,242,92,0.96) 0%,rgba(52,133,80,0.98) 24%,rgba(15,79,74,0.75) 36%,rgba(32,124,202,0.3) 60%,rgba(36,121,196,0.26) 62%,rgba(100,75,111,0.94) 92%,rgba(117,63,88,0.94) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f57ff25c', endColorstr='#f0753f58',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
 }
@@ -79,6 +75,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f57ff25c', e
  word-spacing: 20px;
  font-weight: bolder;
  font-style: oblique;
+ padding: 20px;
+ font-size: 32px;
 }
 
 .section-header{
@@ -108,7 +106,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f57ff25c', e
 h2{
     text-align: center;
     letter-spacing: 2px;
-    background-color:goldenrod;
+    background-color:green;
+    padding: 10px;
   
 }
 
@@ -130,13 +129,16 @@ letter-spacing: 2px;
  color:rgba(77, 8, 62, 0.98);
 
 }
+a:hover{
+    color: chartreuse;G
+}
 
 .footer-nav{
     text-align: center;
 }
 .footer-nav ul{
     padding: 0px;
-    display:inline-block
+    display: flex
 }
 .footer-nav li{
     display: inline;
@@ -144,10 +146,12 @@ letter-spacing: 2px;
     
 }
 
+.wears-set{
+}
 
 .main-footer{
-    background-color: rgba(32,124,202,0.98);
-    color:whitesmoke;
+   
+    color:rgb(43, 41, 41);
    padding-top: 20px;
   
 }
@@ -157,7 +161,6 @@ letter-spacing: 2px;
 }
 .main-footer-container  a:hover{
    background-color: lightblue;
-
 
 }
 
